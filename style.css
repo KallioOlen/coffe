@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    position: absolute;
+    width: 1440px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    }
+    H1 { 
+    margin: 40px;
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+       }
+    H1:hover{
+      color:orange;
+    }
+    .text_home{
+    position: absolute;
+    width: 51px;
+    height: 36px;
+    left: 968px;
+    top: 37px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    }
+    .text_home:hover{
+      color:orange;
+    }
+    .story{
+      position: absolute;
+    width: 57px;
+    height: 36px;
+    left: 1065px;
+    top: 37px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    }
+    .story:hover{
+      color:orange;
+    }
+    .blog{
+      position: absolute;
+    width: 47px;
+    height: 36px;
+    left: 1168px;
+    top: 37px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    }
+    .blog:hover{
+      color:orange;
+    }
+    .subscribe{
+      position: absolute;
+    width: 99px;
+    height: 36px;
+    left: 1261px;
+    top: 37px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    }
+    
+    .subscribe:hover{
+      color:orange;
+    }
+    .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 950px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    left: -2px;
+    top: -148px;
+    }
+    .take{
+    position: absolute;
+    width: 399px;
+    height: 89px;
+    left: 520px;
+    top: 266px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 89px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .line{
+      position: absolute;
+    width: 80px;
+    height: 10px;
+    left: 687px;
+    top: 362px;
+    background: #817070;
+    }
+    
+    
+    .coffe_story{
+    position: absolute;
+    width: 1440px;
+    height: 632px;
+    left: 0px;
+    top: 733px;
+    }
+    .image_2{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 80px;
+    top: 706px;
+    }
+    .coffe_text{
+    position: absolute;
+    width: 597px;
+    height: 180px;
+    left: 820px;
+    top: 880px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+    }
+    
+    .coffe_title{
+    position: absolute;
+    width: 91px;
+    height: 53px;
+    left: 674px;
+    top: 620px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+    .block_blog{
+    position: absolute;
+    width: 1440px;
+    height: 711px;
+    left: 0px;
+    top: 1065px;
+    
+    background: #EFEFEF;
+    }
+    .blog_title{
+      position: absolute;
+    width: 76px;
+    height: 53px;
+    left: 682px;
+    top: 60px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    }
+    .block1{
+     display:flex;
+     flex-direction:column;
+      background: #FFFFFF;
+      width:365px;
+      height:474px;
+      margin:155px;
+      }
+      
+    .block2{
+      position:absolute;
+      top:0px;
+      left: 400px;
+      background: #FFFFFF;
+      width:365px;
+      height:474px;
+      margin:155px;
+     }
+    .block3{
+      position:absolute;
+      top:0px;
+      left: 400px;
+      background: #FFFFFF;
+      width:365px;
+      height:474px;
+      margin:0px;
+    }
+    .DCN{
+     font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 15px;
+    color: #000000;
+    padding-bottom:15px;
+    }
+    
+    .DCC{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    padding:15px;
+    color: #000000;
+    padding-bottom:2px;
+    
+    }
+    
+    .SUM{
+        font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    padding:15px;
+    color: #000000;
+    padding-bottom:2px;
+    }
+    .dcimage{
+      padding:15px;
+    }
+    .DCNcontent{
+    padding: 15px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    }
+    .DCCcontent{
+    padding: 25px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    }
+    
+    .SUMcontent{
+    padding: 15px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+        
+    }
+    
+    .Contact{
+    position: absolute;
+    width: 1440px;
+    height: 377px;
+    right: -520px;
+    top: 480px;
+    background: #817070;	
+    
+    }
+    .Subscribe{
+        
+        position: absolute;
+    width: 161px;
+    height: 53px;
+    left: 640px;
+    top: 60px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+    
+    .input{
+        box-sizing: border-box;
+    
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 571px;
+    top: 141px;
+    
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    }
+    
+    .email{
+        
+        position: absolute;
+    width: 111px;
+    height: 30px;
+    left: 664px;
+    top: 150px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    
+    .submit{
+        position: absolute;
+    width: 129px;
+    height: 55px;
+    left: 655px;
+    top: 224px;
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 129px;
+    height: 55px;
+    left: 655px;
+    top: 224px;
+    
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    }
+    .signature{
+        
+        position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 689px;
+    top: 237px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #817070;
+    
+    }
+    .footer{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top:880px;
+    background: #FFFFFF;
+    }
+    
+    .copyright{
+    position: absolute;
+    width: 147px;
+    height: 30px;
+    left: 80px;
+    top: calc(50% - 30px/2 + 7px);
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    }
